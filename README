@@ -1,0 +1,31 @@
+NATURAL LANGUAGE CALCULATOR
+---------------------------------------
+
+Start the webserver by executing the script 'server.py'. The webserver
+will host its contents on the loopback interface at port 8080. Navigate
+your browser to
+
+http://127.0.0.1:8080/
+
+You will be presented with an input form where you can write a list of calculations.
+The calculations can either be expressed in natural language (german), in arabic
+numbers or in a mixed form. The operators have to be surrounded by spaces. For nega-
+tive numbers you can use the '-' sign or the word 'minus' that has to be directly
+prepended to the number definition.
+
+Example input
+-------------------
+fünfunddreißig mal siebzehn
+18 durch drei
+19288 - 277
+
+List of operators
+-------------------
+-, minus
++, plus
+*, mal
+/, durch
+
+Prequesites
+------------------
+- Python 2.6 or higher is required.
